@@ -1,5 +1,4 @@
-"use client";
-import Spline from "@splinetool/react-spline";
+import Phone3D from "@/components/Phone3D";
 import Image from "next/image";
 
 export default function Home() {
@@ -39,10 +38,7 @@ export default function Home() {
                 <h1 className="font-black text-3xl">Vamos</h1>
                 <h1 className="font-black text-2xl text-[#EB5E28]">em breve</h1>
               </div>
-                <Spline
-                    scene="https://prod.spline.design/eTaYKrLQ0CkRv5vY/scene.splinecode"
-                    className="-translate-y-8"
-                />
+              <Phone3D/>
             </div>
         </main>
     );
