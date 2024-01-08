@@ -37,7 +37,7 @@ export default function Home() {
             <div className="overflow-hidden relative sm:w-80 md:flex-1 sm:h-screen h-[40rem]">
               <div className="absolute left-[calc(50%_-_2.25rem)] top-[calc(50%_-_11.5rem)] flex flex-col items-center">
                 <h1 className="font-black text-3xl">Nos</h1>
-                <h1 className="font-black text-3xl">Vamos</h1>
+                <h1 className="font-black text-3xl">Vemos</h1>
                 <h1 className="font-black text-2xl text-[#EB5E28]">em breve</h1>
               </div>
               <Phone3D/>
