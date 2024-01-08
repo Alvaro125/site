@@ -6,7 +6,7 @@ export default function Home() {
         <main className="relative w-full flex sm:flex-row flex-col text-black">
             <div className="flex-1 flex sm:items-end items-center justify-center flex-col">
                 <div className="flex items-center sm:justify-end flex-col">
-                    <h2 className="font-semibold text-4xl sm:ml-24 -mt-1">
+                    <h2 className="font-semibold text-4xl sm:ml-24 sm:mt-4 mt-1">
                     Bem-vindo ao 
                     </h2>
                     <h1 className="font-bold sm:text-9xl text-8xl sm:mt-0 mt-4 tracking-wider mr-0">
@@ -31,6 +31,8 @@ export default function Home() {
                     <h3 className="font-black text-2xl text-[#EB5E28] sm:w-[28rem] sm:text-right text-center">Sua Solução para Gerenciamento Eficiente de Listas de Presença e Organização de Salas de Aula!</h3>
                 </div>
                     <p className="font-medium sm:text-right sm:px-0 sm:pl-10 mt-10 px-10">Estamos entusiasmados em apresentar o Point, uma aplicação progressiva projetada para atender às demandas da comunidade acadêmica da UFGD. O Point simplifica o gerenciamento de listas de presença e organizações gerais de salas de aula, proporcionando uma experiência rápida e eficaz.</p>
+                    <p className="sm:text-right sm:px-0 sm:pl-10 mt-10 px-10">Se tiver interesse em ter acesso as versões de teste, nos envie um email para:</p>
+                    <p className="italic underline"><a href="mailto:point_edu@protonmail.com">point_edu@protonmail.com</a></p>
             </div>
             <div className="overflow-hidden relative sm:w-80 md:flex-1 sm:h-screen h-[40rem]">
               <div className="absolute left-[calc(50%_-_2.25rem)] top-[calc(50%_-_11.5rem)] flex flex-col items-center">
